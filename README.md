@@ -38,7 +38,7 @@ Please note that you can pass arguments to these scripts:
 <br/>
 ```-ed, --emb-dims: embeddings dimension```
 <br/>
-```-hu, --lstm-hu: LSTM hidden units (applicable only to `ub_LSTM_models.py`)```
+```-hu, --lstm-hu: LSTM hidden units (applicable only to `ub_LSTM_models.py`)``` 
 <br/>
 
 The first time it may take a while as MCTS collects all the neighbors for every word in an input text and it saves them in a file named 'neighbors_<TEST_NUMBER>.pkl' in 'obj' folder (<TEST_NUMBER> is the the i-th input text from test set). 
