@@ -26,33 +26,19 @@ While for LSTM models, run:
 
 Please note that you can pass arguments to these scripts:
 <br/>
-```
--s, --sims: number of Monte Carlo simulations per-vertex
-```
+```-s, --sims: number of Monte Carlo simulations per-vertex```
 <br/>
-```
--m, --max-depth: maximum depth of the tree (i..e, number of perturbations)
-```
+```-m, --max-depth: maximum depth of the tree (i..e, number of perturbations)```
 <br/>
-```
--e, --eps: max-distance (in L2 norm) for collecting neighbors
-```
+```-e, --eps: max-distance (in L2 norm) for collecting neighbors```
 <br/>
-```
--l, --lrate: UTC learning rate
-```
+```-l, --lrate: UTC learning rate```
 <br/>
-```
--d, --discount: UTC discount factor
-```
+```-d, --discount: UTC discount factor```
 <br/>
-```
--ed, --emb-dims: embeddings dimension
-```
+```-ed, --emb-dims: embeddings dimension```
 <br/>
-```
--hu, --lstm-hu: LSTM hidden units (applicable only to `ub_LSTM_models.py`)
-```
+```-hu, --lstm-hu: LSTM hidden units (applicable only to `ub_LSTM_models.py`)```
 <br/>
 
 The first time it may take a while as MCTS collects all the neighbors for every word in an input text and it saves them in a file named 'neighbors_<TEST_NUMBER>.pkl' in 'obj' folder (<TEST_NUMBER> is the the i-th input text from test set). 
