@@ -17,15 +17,11 @@ Before testing the code, you just need to download the embedding, which by defau
 
 To test all the experiments for CNNs, launch from console:
 <br/>
-```
-python3 ub_CNN_models.py
-```
+```python3 ub_CNN_models.py```
 <br/>
 While for LSTM models, run:
 <br/>
-```
-python3 ub_LSTM_models.py
-```
+```python3 ub_LSTM_models.py```
 <br/>
 
 Please note that you can pass arguments to these scripts:
