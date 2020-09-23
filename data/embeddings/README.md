@@ -1,0 +1,4 @@
+Embeddings are stored here.
+
+## Instructions
+you need to download the GloVe and GloVeTwitter pre-trained embeddings respectively from http://nlp.stanford.edu/data/glove.6B.zip and http://nlp.stanford.edu/data/glove.twitter.27B.zip. Once archives have been unzipped, move them inside this folder (```./data/embeddings```). Please note that naming should be consistent with variables in `ub_CNN_models.py` and `ub_LSTM_models.py` files, i.e., `glove.6B.<DIMS>d.txt` and `glove.twitter.27B.<DIMS>d.txt` where <DIMS> is the dimensionality of the embedding (can be specified as a parameter, see the next section). For example, in roder to test GloVe50d, the embedding's name should be `glove.6B.50d.txt` and so on.
