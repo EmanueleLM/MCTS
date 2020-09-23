@@ -34,21 +34,27 @@ Please note that you can pass arguments to these scripts:
 -s, --sims: number of Monte Carlo simulations per-vertex
 ```
 <br/>
+```
 -m, --max-depth: maximum depth of the tree (i..e, number of perturbations)
 ```
 <br/>
+```
 -e, --eps: max-distance (in L2 norm) for collecting neighbors
 ```
 <br/>
+```
 -l, --lrate: UTC learning rate
 ```
 <br/>
+```
 -d, --discount: UTC discount factor
 ```
 <br/>
+```
 -ed, --emb-dims: embeddings dimension
 ```
 <br/>
+```
 -hu, --lstm-hu: LSTM hidden units (applicable only to `ub_LSTM_models.py`)
 ```
 <br/>
@@ -57,3 +63,4 @@ The first time it may take a while as MCTS collects all the neighbors for every 
 
 # Cite
 If you are considering citing this work, please use the following bibtex snippet:
+<INSERT-PAPER-BIBTEX>
