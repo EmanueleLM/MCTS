@@ -5,9 +5,9 @@ ArXiv: <link>
 
 ## Dependencies (versions reported have been tested)
 You need to install python3, then you have to install the following dependencies (e.g., by pip3): we list the packages versions that we used, but other versions could work:
-- Tensorflow==2.0.0
 - Numpy==1.17.2
 - Progress==1.5
+- Tensorflow==1.14.0
 - Torch==1.3.1
 
 Further to this, you need to download the GloVe and GloVeTwitter pre-trained embeddings respectively from http://nlp.stanford.edu/data/glove.6B.zip and http://nlp.stanford.edu/data/glove.twitter.27B.zip. Once archives have been unzipped, move them inside the ```./data/embeddings``` folder. Please note that naming should be consistent with variables in `ub_CNN_models.py` and `ub_LSTM_models.py` files, i.e., `glove.6B.<DIMS>d.txt` and `glove.twitter.27B.<DIMS>d.txt` where <DIMS> is the dimensionality of the embedding (can be specified as a parameter, see the next section). For example, to test GloVe50d, the embedding's name should be `glove.6B.50d.txt`.

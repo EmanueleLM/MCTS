@@ -17,7 +17,7 @@ from Neighbors import Neighbors
 
 # Parse epsilon and window size from command line
 parser = argparse.ArgumentParser(description='Number of simulations, max-depth of the tree and max-distance (in L2 norm) for collecting neighbors can be passed as arguments.')
-parser.add_argument('-s', '--sims', dest='sims', type=int, default=500, help='number of Monte Carlo simulations per-vertex')
+parser.add_argument('-s', '--sims', dest='n_sims', type=int, default=500, help='number of Monte Carlo simulations per-vertex')
 parser.add_argument('-m', '--max-depth', dest='max_depth', type=int, default=5, help='maximum depth of the tree (i..e, number of perturbations)')
 parser.add_argument('-e', '--eps', dest='eps', type=float, default=10.0, help='max-distance (in L2 norm) for collecting neighbors')
 parser.add_argument('-l', '--lrate', dest='l_rate', type=float, default=1e-3, help='UTC learning rate')
