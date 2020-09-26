@@ -10,7 +10,7 @@ from tensorflow.keras.utils import to_categorical  #one-hot encode target column
 from torchtext import data
 from torchtext import datasets
 
-from glove_utils import load_embedding, pad_sequences, load_embedding_clear
+from embedding_utils import load_embedding, pad_sequences, load_embedding_clear
 
 class RNN(nn.Module):
     """

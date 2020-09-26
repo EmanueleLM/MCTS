@@ -2,6 +2,7 @@
 Define filters to exclude some kind of neighbors from the results.
 All the filter are compliant with Neighbors class (Neighbors.py) and its filter's functions.
 """
+from nltk import pos_tag, tokenize
 
 def nltk_filter(w, candidates, granularity='exact', auxiliary_list=None):
     """
@@ -29,7 +30,6 @@ def nltk_filter(w, candidates, granularity='exact', auxiliary_list=None):
     -------
         list of words filtered by their type plus the auxiliary list if auxiliary_list is not None.
     """
-    from nltk import pos_tag, tokenize
     categories_allowed = {}
     if granularity == 'custom':
         lines = [line.rstrip('\n') for line in open("./filters/nltk.cfg","r")]

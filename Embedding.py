@@ -165,7 +165,7 @@ class Embedding:
         else :
             return words_map
     
-    def filter_by_distance(words_map, distances_map, threshold = 3.0):
+    def filter_by_distance(self, words_map, distances_map, threshold = 3.0):
         '''
         Filter out neighbors with distance > `threshold`
 

@@ -83,7 +83,7 @@ for (dataset, maxlen) in zip(DATASETS, MAXLEN):
             test_pt = i
             x, y = (np.expand_dims(X_test[test_pt],0), y_test[test_pt])
             input_text = x_text[test_pt][:maxlen]
-            neighbors_prefix_path = "./obj/{}_test_set/{}/".format(dataset, embedding_prefix)
+            neighbors_prefix_path = "./obj/{}_{}_".format(dataset, embedding_prefix)
             if path.exists(neighbors_prefix_path + "neighbors_{}.pkl".format(test_pt)):
                 print("[logger]: Loading neighbors for each word from saved file.")
                 nearest_neighbors = pickle.load(open(neighbors_prefix_path + "neighbors_{}.pkl".format(test_pt), 'rb'))

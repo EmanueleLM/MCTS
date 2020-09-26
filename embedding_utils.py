@@ -3,7 +3,7 @@ from collections import defaultdict
 import pickle
 from numpy import linalg as LA
 import time
-from embedding import Embedding
+from Embedding import Embedding
 
 def pad_sequences(X, maxlen, emb_size=50):
     for i in range(len(X)):

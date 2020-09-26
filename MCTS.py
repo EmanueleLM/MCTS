@@ -1,7 +1,5 @@
 from math import log, sqrt, inf
 import copy as cp
-import matplotlib.pyplot as plt
-import networkx as nx
 import numpy as np  # --> exploit SIMD when it is possible
 
 
