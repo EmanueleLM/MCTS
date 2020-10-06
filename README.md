@@ -1,7 +1,7 @@
 # Monte Carlo Tree Search for Multiple Words Substitutions
 This code is the original implementation to replicate the Monte Carlo Tree Search (MCTS) simulations as described in the paper "Assessing Robustness of Text Classification through Maximal Safe Radius Computation", accepted as long paper publication at EMNLP-Findings (EMNLP2020).
 <br/>
-ArXiv: <link>
+ArXiv: https://arxiv.org/abs/2010.02004
 
 ## Dependencies (versions reported have been tested)
 You need to install python3, then you have to install the following dependencies (e.g., by pip3): we list the packages versions that we used, but other versions could work:
