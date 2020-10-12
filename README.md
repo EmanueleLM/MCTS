@@ -47,4 +47,10 @@ The first time it may take a while as MCTS collects all the neighbors for every 
 # Cite
 If you are considering citing this algorithm as part of your work, please use the following bibtex:
 <br/>
-<Coming-soon>
+@article{la2020assessing,
+  title={Assessing Robustness of Text Classification through Maximal Safe Radius Computation},
+  author={La Malfa, Emanuele and Wu, Min and Laurenti, Luca and Wang, Benjie and Hartshorn, Anthony and Kwiatkowska, Marta},
+  journal={arXiv preprint arXiv:2010.02004},
+  year={2020}
+}
+
