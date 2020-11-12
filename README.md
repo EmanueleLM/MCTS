@@ -48,11 +48,22 @@ The first time it may take a while as MCTS collects all the neighbors for every 
 If you are considering citing this algorithm as part of your work, please use the following bibtex:
 <br/>
 ```
-@article{la2020assessing,
-  title={Assessing Robustness of Text Classification through Maximal Safe Radius Computation},
-  author={La Malfa, Emanuele and Wu, Min and Laurenti, Luca and Wang, Benjie and Hartshorn, Anthony and Kwiatkowska, Marta},
-  journal={arXiv preprint arXiv:2010.02004},
-  year={2020}
+@inproceedings{la-malfa-etal-2020-assessing,
+    title = "Assessing Robustness of Text Classification through Maximal Safe Radius Computation",
+    author = "La Malfa, Emanuele  and
+      Wu, Min  and
+      Laurenti, Luca  and
+      Wang, Benjie  and
+      Hartshorn, Anthony  and
+      Kwiatkowska, Marta",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2020",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.findings-emnlp.266",
+    pages = "2949--2968",
+    abstract = "Neural network NLP models are vulnerable to small modifications of the input that maintain the original meaning but result in a different prediction. In this paper, we focus on robustness of text classification against word substitutions, aiming to provide guarantees that the model prediction does not change if a word is replaced with a plausible alternative, such as a synonym. As a measure of robustness, we adopt the notion of the maximal safe radius for a given input text, which is the minimum distance in the embedding space to the decision boundary. Since computing the exact maximal safe radius is not feasible in practice, we instead approximate it by computing a lower and upper bound. For the upper bound computation, we employ Monte Carlo Tree Search in conjunction with syntactic filtering to analyse the effect of single and multiple word substitutions. The lower bound computation is achieved through an adaptation of the linear bounding techniques implemented in tools CNN-Cert and POPQORN, respectively for convolutional and recurrent network models. We evaluate the methods on sentiment analysis and news classification models for four datasets (IMDB, SST, AG News and NEWS) and a range of embeddings, and provide an analysis of robustness trends. We also apply our framework to interpretability analysis and compare it with LIME.",
 }
 ```
 
