@@ -1,7 +1,7 @@
 # Monte Carlo Tree Search for Multiple Words Substitutions
 This code is the original implementation to replicate the Monte Carlo Tree Search (MCTS) simulations as described in the paper "Assessing Robustness of Text Classification through Maximal Safe Radius Computation", accepted as long paper publication at EMNLP-Findings (EMNLP2020).
 <br/>
-ACM: https://www.aclweb.org/anthology/2020.findings-emnlp.266/
+ACL: https://www.aclweb.org/anthology/2020.findings-emnlp.266/
 <br/>
 ArXiv: https://arxiv.org/abs/2010.02004
 
